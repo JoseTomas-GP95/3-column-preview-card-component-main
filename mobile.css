@@ -1,0 +1,105 @@
+/* 
+  - Mobile: 375px
+*/
+/* font-family: 'Big Shoulders Display', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--neutral-very-light-gray);
+}
+
+/* COLORS */
+:root {
+  --primary-bright-orange: hsl(31, 77%, 52%);
+  --primary-dark-cyan: hsl(184, 100%, 22%);
+  --primary-very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* paragraphs */
+  --neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+
+  /* background, headings, buttons */
+  --neutral-very-light-gray: hsl(0, 0%, 95%);
+
+  /* fonts */
+  --shoulders : 'Big Shoulders Display'
+}
+
+/* container */
+main {
+  padding: 80px 0;
+}
+
+/* first-section */
+.first-section {
+  background-color: var(--primary-bright-orange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.first-section button {
+  color: var(--primary-bright-orange);
+}
+/* second-section */
+.second-section {
+  background-color: var(--primary-dark-cyan);
+}
+.second-section button {
+  color: var(--primary-dark-cyan);
+}
+/* third-section */
+.third-section {
+  background-color: var(--primary-very-dark-cyan);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.third-section button {
+  color: var(--primary-very-dark-cyan);
+}
+
+.first-section,
+.second-section,
+.third-section {
+  width: 100%;
+  max-width: 300px;
+  height: 440px;
+  margin: auto;
+  padding: 36px;
+  text-align: start;
+}
+
+/* Content card */
+h1 {
+  font-family: var(--shoulders);
+  color: var(--neutral-very-light-gray);
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+p {
+  color: var(--neutral-transparent-white);
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+button {
+  width: 60%;
+  background-color: var(--neutral-very-light-gray);
+  padding: 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+}
+
+figure, h1, article {
+  margin-bottom: 28px;
+}
+
+article {
+  width: 100%;
+  height: 40%;
+}
