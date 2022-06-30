@@ -101,6 +101,11 @@ button {
   border-bottom-right-radius: 25px;
   border: none;
 }
+button:active {
+  background-color: transparent;
+  border: var(--neutral-transparent-white) 1px solid;
+  color: var(--neutral-transparent-white);
+}
 
 figure, h1, article {
   margin-bottom: 28px;
